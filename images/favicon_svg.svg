@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Schwarzer Hintergrundkreis -->
+  <circle cx="256" cy="256" r="256" fill="black"/>
+
+  <!-- Weißer innerer Kreis mit Abstand -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="white" stroke-width="16"/>
+
+  <!-- Textblock: </> und ABS -->
+  <text x="256" y="240" font-family="Segoe UI, sans-serif" font-size="112"
+        fill="white" text-anchor="middle" dominant-baseline="middle">
+    <tspan x="256" dy="-40">&lt;/&gt;</tspan>
+    <tspan x="256" dy="120">ABS</tspan>
+  </text>
+</svg>
